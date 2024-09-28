@@ -1,0 +1,32 @@
+[
+    {
+        "imgSrc": "burger.avif",
+        "name": "Burger",
+        "price": 45.00
+    },
+    {
+        "imgSrc": "pizza.avif",
+        "name": "Pizza",
+        "price": 100.00
+    },
+    {
+        "imgSrc": "salcurry.avif",
+        "name": "Salcurry",
+        "price": 49.00
+    },
+    {
+        "imgSrc": "steak.avif",
+        "name": "Steak4",
+        "price": 189.00
+    },
+    {
+        "imgSrc": "honeytoast.avif",
+        "name": "Honeytoast",
+        "price": 89.00
+    },
+    {
+        "imgSrc": "salad.avif",
+        "name": "Salad",
+        "price": 35.00
+    }
+]

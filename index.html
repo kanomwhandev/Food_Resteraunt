@@ -1,0 +1,53 @@
+    <!DOCTYPE html>
+    <html lang="th">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>fantasyREST</title>
+        <!-- นำเข้าไฟล์ CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- นำเข้าฟอนต์จาก Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- เพิ่ม flakes สำหรับตกแต่งเพิ่มเติม -->
+        <div class="flake">🍕</div>
+            <div class="flake">🍔</div>
+            <div class="flake">🍟</div>
+            <div class="flake">🍛</div>
+            <div class="flake">🥩</div>
+            <div class="flake">🍙</div>
+            <div class="flake">🍤</div>
+            <div class="flake">🍩</div>
+            <div class="flake">🍡</div>
+            <div class="flake">🥪</div>
+
+        <div class="container">
+            <h1>FOOD MENU</h1>
+            <div class="menu">
+                <!-- เมนูจะถูกโหลดจาก `menu.json` โดยใช้ JavaScript -->
+            </div>
+            <div class="orders-panel">
+                <h2>Order List</h2>
+                <ul id="order-list"></ul>
+                <h3 id="total-cost">Total price: ฿0.00</h3>
+                <button id="pay-bill-btn">Payment</button>
+            </div>
+        </div>
+
+        <!-- หน้าต่างยืนยันการชำระเงิน -->
+        <div id="confirmation-modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close-button">&times;</span>
+                <h2>Confirm Order</h2>
+                <p id="confirm-message">Total Price: ฿0.00</p>
+                <button id="confirm-order-btn">Confirm</button>
+                <button id="cancel-order-btn">Cancel</button>
+            </div>
+        </div>
+
+        <!-- นำเข้าไฟล์ JavaScript -->
+        <script src="script.js"></script>
+        
+    </body>
+    </html>
