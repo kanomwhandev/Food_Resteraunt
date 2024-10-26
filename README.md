@@ -1,4 +1,4 @@
-🎮 Pixel Art Food Menu
+**🎮 Pixel Art Food Menu**
 Core Functions:
 
 Menu Display System
